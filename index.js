@@ -15,11 +15,21 @@ const endorsement = document.getElementById("textbox")
 const list = document.getElementById("feedback-database")
 
 publishBtn.addEventListener("click", function(){ 
+    
     let endorsementValue = endorsement.value
     
-    push( endorsementsInDB, endorsementValue )
-    
-    list.innerHTML += `<li>${endorsementValue}</li>`
+    if(endorsementValue == 0){
+        
+        document.getElementById("textbox").style.border = "1px solid red";
+        
+    }
+    else
+    {
+        document.getElementById("textbox").style.border = "none";
+        push( endorsementsInDB, endorsementValue )
+        list.innerHTML += `<li>${endorsementValue}</li>`
+        
+    }
 })
 
 

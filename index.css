@@ -16,6 +16,14 @@ html, body {
     padding-top: 40px;
 }
 
+#fromandto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
 #textbox {
   background-color: rgb(68, 65, 91);
   border: none;
@@ -26,6 +34,19 @@ html, body {
   box-sizing: border-box;
   height: 80px;
   resize: none;
+  font-size: 1.2em;
+}
+
+input[type=text] {
+  background-color: rgb(68, 65, 91);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(150, 151, 146);
+  width: 115px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  height: 30px;
   font-size: 1.2em;
 }
 
