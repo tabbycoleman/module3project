@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1923;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 0.7em;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+#textbox {
+  background-color: rgb(68, 65, 91);
+  border: none;
+  border-radius: 5px;
+  color: rgb(150, 151, 146);
+  width: 270px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  height: 80px;
+  resize: none;
+  font-size: 1.2em;
+}
+
+#publish-btn {
+  color: #1C1923;
+  background-color: rgb(0, 172, 247);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  width: 270px;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#freddie-img{
+  width: 150px;  
+}
+
+#endorsements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#feedback-database {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul li {
+  font-size: 15px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 1px;
+  width: 270px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+#end-title {
+  color: white;
+  font-size: 1.2em;
+  
+}
