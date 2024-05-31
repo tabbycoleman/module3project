@@ -57,6 +57,9 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0; 
+  word-break: break-all
+
 }
 
 ul li {
@@ -68,7 +71,7 @@ ul li {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #end-title {
