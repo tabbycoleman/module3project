@@ -22,6 +22,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
+    width: 270px;
 }
 
 #textbox {
